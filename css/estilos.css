@@ -1,0 +1,49 @@
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#menu li {
+    float: left;
+    display: flex;
+}
+#menu a {
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: darkblue;
+}
+#boton_registro{
+
+    float: right;
+    padding: 5px 5px;
+    margin: 4px;
+}
+#formulario{
+    width:300px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background-color:#ccc;
+}
+#formulario label {
+    width:90px;
+    font-weight:normal;
+    display: inline-grid;
+}
+#formulario form input{
+    width:180px;
+    padding:3px 1px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+
+}
